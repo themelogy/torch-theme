@@ -1,0 +1,29 @@
+/* Add here all your CSS customizations */
+@import "config/variables";
+
+/* Carousel Style - Stripes */
+.owl-carousel.carousel-stripes {
+  .carousel-stripe-item {
+    height: calc(50vh);
+  }
+}
+
+.steps {
+  .item {
+    &.active {
+      .item-title {
+        color: $color-dark;
+        span {
+          color: $color-skin-default;
+        }
+      }
+    }
+  }
+}
+
+/* Overlays */
+//.overlay {
+//  &:before {
+//    background-color: rgba(0,0,0,.5);
+//  }
+//}
