@@ -4,11 +4,10 @@
             {!! Menu::render('header', \Themes\Torch\Presenter\HeaderMenuPresenter::class) !!}
         </nav>
     </div>
-    <a href="#" class="header-search-button order-1 text-4 order-2 mt-1 me-xl-2 ms-3">
-        <i class="icon icon-magnifier font-weight-bold"></i>
-    </a>
-    <button class="header-btn-collapse-nav order-3 ms-3" data-bs-toggle="collapse"
-            data-bs-target=".header-nav-main nav">
+{{--    <a href="#" class="header-search-button order-1 text-4 order-2 mt-1 me-xl-2 ms-3">--}}
+{{--        <i class="icon icon-magnifier font-weight-bold"></i>--}}
+{{--    </a>--}}
+    <button class="header-btn-collapse-nav order-3 ms-3" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
         <span class="hamburguer">
             <span></span>
             <span></span>

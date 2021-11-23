@@ -13,12 +13,12 @@
                 <div class="header-column justify-content-start">
                     <div class="header-logo">
                         <a href="@homepage">
-                            <img alt="@setting('theme::company-name')" src="{{ Theme::url('images/logos/logo-default.svg') }}">
+                            <img style="height: 60px;" alt="@setting('theme::company-name')" src="{{ Theme::url('images/logo/logo-dark.svg') }}">
                         </a>
                     </div>
                 </div>
                 <div class="header-column justify-content-end">
-                    @includeIf('partials.header.search')
+{{--                    @includeIf('partials.header.search')--}}
                     @includeIf('partials.header.nav')
                 </div>
             </div>

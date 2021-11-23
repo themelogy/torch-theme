@@ -44,7 +44,7 @@
         <div class="row">
             <div class="col-lg-2 align-self-center text-center mb-5 mb-lg-0">
                 <a href="@homepage" class="logo">
-                    <img src="{{ Theme::url('images/logos/logo-icon.svg') }}" class="img-responsive mb-lg-5 opacity-50" alt="@setting('theme::company-name')" style="width: 100%;">
+                    <img src="{{ Theme::url('images/logo/logo-icon-dark.svg') }}" class="img-responsive mb-lg-5" alt="@setting('theme::company-name')" style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 text-center text-lg-start mb-5 mb-lg-0">
